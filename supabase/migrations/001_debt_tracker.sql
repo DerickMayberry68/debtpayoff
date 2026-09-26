@@ -112,6 +112,7 @@ end $$;
 -- ---------- Seed ----------
 insert into public.household_members (email) values
   ('derickmayberry@gmail.com'),
+  ('derickmayberry@protonmail.com'),
   ('WIFE_EMAIL_HERE')
 on conflict do nothing;
 
